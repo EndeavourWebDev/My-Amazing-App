@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Amazing App!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- Declare jquery 1st, Tether, then Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="C:/Users/ANDREW/Desktop/Complete Web Developer Course/Chapter 5 -Bootstrap/font-awesome-4.7.0/css/font-awesome.min.css">
+  
+  <style>
+  
+ body
+ {
+ margin:0;
+ border:0;
+ padding:0;
+ position: relative;
+ }
+
+.nav-item
+{
+font-weight:bold;
+
+}
+
+.navbar-brand
+{
+font-weight:bold;
+}
+
+.jumbotron 
+{
+    margin-bottom: 0px;
+    background-image: url(lea-dubedout-40117.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+	font-weight:bold;
+	height: 400px;
+}
+
+#jumbotron-button-style
+{
+padding-left:20px;
+padding-top: 5px;
+}
+
+.container
+{
+padding-left: 120px;
+}
+
+#navbar-form-inputs input
+{
+font-weight:bold;
+color:#eeeeee;
+}
+
+#download
+{
+background-color: #7DE7FF;
+}
+
+
+
+#download img
+{
+width: 30%;
+}
+
+
+
+.row
+{
+margin-left:20px;
+margin-right:25px;
+margin-top:25px;
+margin-bottom:25px;
+}
+
+
+#about
+{
+padding:50px;
+
+margin-left:auto;
+margin-right:auto;
+
+border:0;
+}
+
+#navigation-bar
+{
+padding-bottom:8px;
+}
+
+#getapp
+{
+margin-left:auto;
+margin-right:auto;
+
+padding-left:0px;
+padding-top:100px;
+padding-bottom:100px;
+text-align:center
+
+}
+.card-img-top
+{
+width:100%;
+}
+
+
+  </style>
+  
+<script>
+
+		
+			
+	</script>
+	
+  </head>
+  
+
+  <body data-spy="scroll" data-target="#navbarSupportedContent">
+  <!-- navigation bar with links, email and password inputs, log in button  -->	
+<nav id="navigation-bar" class="navbar navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">AmazingApp!</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#jumbowindow">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#download">Download the App</a>
+      </li>
+    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="email" placeholder="Email">
+
+    </form>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="password" placeholder="Password">
+      <button class="btn btn-success my-2 my-sm-0" type="submit">Log In</button>
+    </form>
+  </div>
+</nav>
+
+			  
+		</div>
+	</nav>
+
+<!-- jumbotron with button  -->	
+	
+<div id="jumbowindow" class="jumbotron jumbotron-fluid">
+ 
+  <div class="container">
+    <h1 class="display-3">My Amazing App!</h1>
+    <p class="lead">This is where you can download this Amazing App.</p>
+	<div id="jumbotron-button-style">
+	<p><a class="btn btn-info" href="#" role="button">Learn more</a></p>
+	</div>
+</div>
+</div>
+
+<!-- card with featured content  -->	
+<div id="about" class="card">
+  <div class="card-block">
+    <h4 class="card-title">Why This Application Is Awesome</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper egestas egestas. 
+	Donec ante urna, laoreet a fringilla hendrerit, consequat sed ipsum. Ut quis erat justo. Suspendisse a massa quam. 
+	Maecenas ullamcorper auctor velit ac malesuada. Fusce volutpat porttitor mi, nec fringilla risus pretium ut. Vivamus 
+	ipsum odio, congue eget commodo et, molestie ut felis. Curabitur egestas orci augue, vel venenatis eros accumsan quis.
+
+Cras euismod pulvinar risus, vel ultrices nibh volutpat rhoncus. Suspendisse felis nisl, dapibus et est non, rhoncus 
+auctor dolor. Proin mi justo, vehicula a urna nec, bibendum varius ligula. Nunc tempus nulla a euismod elementum. Quisque 
+eget erat tristique, pharetra quam vel, gravida lorem. Quisque eget accumsan eros, nec consectetur enim. Nam congue ligula 
+vel dictum facilisis. Suspendisse dictum id libero quis tempor. Mauris vehicula, dui nec semper tincidunt, nisl eros volutpat 
+urna, a lacinia velit velit vitae sem.</p>
+    <a href="#" class="btn btn-info">Go somewhere</a>
+  </div>
+</div>
+<hr>
+<!-- three cards with additional info  -->	
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+	<img class="card-img-top" src="freestocks-org-182581-sm.jpg" alt="Card image cap">
+      <div class="card-block">
+	  <div id="card-title">
+	  
+        <h3 class="card-title"><i class="fa fa-address-book" aria-hidden="true"></i> Features</h3>
+		</div>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Aliquam semper egestas egestas. Donec ante urna, laoreet a fringilla hendrerit, 
+		consequat sed ipsum. Ut quis erat justo. Suspendisse a massa quam. Maecenas ullamcorper 
+		auctor velit ac malesuada. Fusce volutpat porttitor mi, nec fringilla risus pretium ut.</p>
+        <a href="#" class="btn btn-info">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+	<img class="card-img-top" src="william-stitt-162600-sm.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h3 class="card-title"><i class="fa fa-camera" aria-hidden="true"></i> Learn More</h3>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Aliquam semper egestas egestas. Donec ante urna, laoreet a fringilla hendrerit, 
+		consequat sed ipsum. Ut quis erat justo. Suspendisse a massa quam. Maecenas ullamcorper 
+		auctor velit ac malesuada. Fusce volutpat porttitor mi, nec fringilla risus pretium ut.</p>
+        <a href="#" class="btn btn-info">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-4">
+    <div class="card">
+	<img class="card-img-top" src="allef-vinicius-149732-sm.jpg" alt="Card image cap">
+      <div class="card-block">
+        <h3 class="card-title"><i class="fa fa-gift" aria-hidden="true"></i> Newest Updates</h3>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Aliquam semper egestas egestas. Donec ante urna, laoreet a fringilla hendrerit, 
+		consequat sed ipsum. Ut quis erat justo. Suspendisse a massa quam. Maecenas ullamcorper 
+		auctor velit ac malesuada. Fusce volutpat porttitor mi, nec fringilla risus pretium ut.</p>
+        <a href="#" class="btn btn-info">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="download" class="container-flexible">
+<div id="getapp" class="container">
+<h2>Download the App!</h2>
+<p>Go here to get the app now!</p>
+
+<a href=""><img src="google-play-badge.png"></a>
+</div>
+<hr>
+</div>
+
+  </body>
+  
+</html>
